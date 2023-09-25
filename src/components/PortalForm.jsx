@@ -26,6 +26,7 @@ function PortalForm() {
          <Form>
            <CustomInput label="Kullanıcı Adı" name="userName" type="text" placeholder="Kullanıcı Adınızı Giriniz" />
            <CustomSelect label="Okulunuz" name="university" placeholder="Üniversitenizi Seçiniz">
+           <option value="">Lütfen Üniversiteniz Seçiniz</option>
             <option value="bogazici">Boğaziçi Üniversitesi</option>
             <option value="gsu">Galatasaray Üniversitesi</option>
             <option value="odtü">ODTÜ</option>
